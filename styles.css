@@ -5,6 +5,7 @@
     --clr-grayish-blue: hsl(216deg 15% 48%);
     --clr-dark-blue: hsl(218deg 44% 22%);
     --clr-accent: hsl(228deg 45% 44%);
+    --shadow: 0 0.6rem 1.2rem rgb(0 0 0 / 10%);
 }
 
 body {
@@ -25,7 +26,7 @@ body {
     max-width: 20rem; 
     background-color: var(--clr-white);
     border-radius: 1.4rem; 
-    box-shadow: 0 0.6rem 1.2rem rgb(0 0 0 / 10%); 
+    box-shadow: var(--shadow); 
     position: absolute;
     top: 50%;
     left: 50%;
